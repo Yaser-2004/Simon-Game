@@ -49,3 +49,51 @@ h1 {
     background-color: blue;
     margin-bottom: 20px;
 }
+
+#start-button {
+    display: none;
+    width: 100px;
+    height: 50px;
+    border: 0px;
+    background-color: rgb(119, 247, 119);
+    border-radius: 10px;
+    margin-top: 10%;
+    font-size: large;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#span-2 {
+    display: none;
+}
+
+#start-button:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    .boxes button {
+        height: 120px;
+        width: 120px;  
+    }
+
+    h1 {
+        font-size: 10vw;
+        margin-bottom: 10%;
+    }
+
+    #start-button {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #span-1 {
+        display: none;
+    }
+
+    #span-2 {
+        display: inline-block;
+    }
+}

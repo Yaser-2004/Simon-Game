@@ -116,6 +116,9 @@ startBtn.addEventListener("click", () => {
     generateOneColor();
     firstbuttonClick();
     console.log(gameColorSequence);
+    setTimeout(() => {
+        startBtn.style.display="none";
+    }, 100);
 })
 
 
